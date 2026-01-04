@@ -209,8 +209,7 @@ limitations under the License.
 
 ## 📞 Contact
 
-- **GitHub Issues :** [https://github.com/TBDwarf/Crypt3TR/issues](https://github.com/TBDwarf/SMAJS/issues)
-- **Discussions :** [https://github.com/TBDwarf/Crypt3TR/discussions](https://github.com/TBDwarf/SMAJS/discussions)
+- **GitHub Issues :** [https://github.com/TBDwarf/SMAJS/issues](https://github.com/TBDwarf/SMAJS/issues)
 
 ---
 

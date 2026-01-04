@@ -1,0 +1,31 @@
+{
+  "smtp": {
+    "server": "smtp.*.*",
+    "port": 465,
+    "username": "",
+    "password": "",
+    "sender": "SMAJS Alerts",
+    "recipient": "*@*.*",
+    "subject_prefix": "🔐 SMAJS - Rapport de sécurité"
+  },
+  "rapports": {
+    "max_files": 3,
+    "dossier": "rapports"
+  },
+    "securite": {
+      "paquets_critiques": [
+          "kernel", "openssl", "libssl", "ssh", "sudo", "bash",
+          "systemd", "glibc", "nginx", "apache", "httpd",
+          "mysql", "mariadb", "postgresql", "php", "python",
+          "docker", "kube", "openssh", "firewalld", "iptables",
+          "dbus", "pam", "polkit", "cryptsetup", "grub"
+    ]
+  },
+  "planification": {
+    "jour_rapport": 4
+  },
+  "disque": {
+    "seuil_alerte": 90
+  }
+}
+

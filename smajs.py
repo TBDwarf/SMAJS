@@ -1054,6 +1054,7 @@ class SMASJPro:
 """
                         if len(result["packages"]["critical"]) > len(crit_pkgs):
                             html += '<span style="color:#ffd6d6; font-size:11px;">…</span>'
+                        html += "</div>"
 
                     if sec_pkgs:
                         html += """
@@ -1068,6 +1069,7 @@ class SMASJPro:
 """
                         if len(result["packages"]["security"]) > len(sec_pkgs):
                             html += '<span style="color:#ffe7b8; font-size:11px;">…</span>'
+                        html += "</div>"
 
                     html += "</div>"
 
